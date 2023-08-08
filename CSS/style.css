@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200&display=swap");
+* {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+}
+
+body {
+  background-color: #DEE2D6;
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+#cabecera {
+  width: 100%;
+  background-color: #F3F8F2;
+  min-height: 100px;
+  height: 100px;
+  border-bottom: 3px solid #EBE9E9;
+  position: sticky;
+}
+#cabecera .lista {
+  align-items: center;
+  min-height: 100px;
+  height: 100%;
+  margin: 0px;
+}
+#cabecera .lista h1 {
+  text-align: center;
+  color: #3581B8;
+  font-size: 35px;
+  padding: 0px;
+  margin: auto;
+}
+#cabecera .lista #visual {
+  color: #FCB07E;
+}
+#cabecera .lista #list {
+  margin: auto;
+  text-align: center;
+  padding: 0px;
+}
+#cabecera .lista #list .category {
+  list-style: none;
+  height: 1.6em;
+}
+#cabecera .lista #list .category a {
+  color: #3581B8;
+  text-decoration: none;
+  font-size: 1.4em;
+  transition: font-size 0.3s;
+}
+#cabecera .lista #list .category a:hover {
+  font-size: 1.6em;
+  color: #FCB07E;
+}
+
+.container .articulo {
+  margin: 0px 0px 10% 0px;
+}
+.container .myself .title-div {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container .myself .title-div h2 {
+  font-size: 80px;
+  color: #3581B8;
+}
+.container .myself .title-div h2 #visual2 {
+  color: #FCB07E;
+}
+.container .myself .img-div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.container .myself .img-div img {
+  width: 500px;
+}
+.container .aboutme #title {
+  margin-bottom: 8%;
+}
+.container .aboutme #title h2 {
+  color: #3581B8;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.container .aboutme #info {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  margin: auto;
+}
+.container .aboutme #info #text p {
+  width: 90%;
+  color: #3581B8;
+  justify-content: center;
+}
+.container .aboutme #info #img {
+  text-align: center;
+  align-items: center;
+}
+.container .aboutme #info #img img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #FCB07E;
+}
+.container .proyects {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 1em;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .proyects #Aname h2 {
+  color: #3581B8;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10%;
+}
+.container .proyects #MyPro {
+  margin: auto;
+}
+.container .proyects #MyPro .card {
+  margin-bottom: 5%;
+  width: 30rem;
+  background-color: #3581B8;
+  color: #FFFAFF;
+}
+.container .proyects #MyPro .card img {
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.container .proyects #MyPro .card h5 {
+  color: #FCB07E;
+}
+.container .proyects #MyPro .card a {
+  color: #FFFAFF;
+}
+.container .cv {
+  margin: 0px auto;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.container .cv .cvs {
+  color: #FCB07E;
+  font-size: 50px;
+}
+.container .cv a {
+  font-size: 20px;
+  padding: 10px;
+}
+.container #pimba {
+  justify-content: center;
+  margin: 0px auto;
+}
+.container #pimba .contact h2 {
+  padding: 0px;
+  color: #3581B8;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.container #pimba .contact #form {
+  list-style: none;
+}
+.container #pimba .contact #form .texto {
+  color: #3581B8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container #pimba .contact #form .information {
+  padding-left: 1%;
+}
+.container #pimba .contact #form .alert {
+  text-align: center;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */
